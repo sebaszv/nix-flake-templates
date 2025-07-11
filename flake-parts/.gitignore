@@ -1,0 +1,7 @@
+**/.direnv
+**/.pre-commit-config.yaml
+# `result*` is too broad. All we care
+# about is the out-links that Nix builds
+# create.
+**/result
+**/result-*
